@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<PackageId>TestGithubActions</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>msynk</Authors>
+		<PackageDescription>This package adds a Class1!</PackageDescription>
+		<RepositoryUrl>https://github.com/msynk/test-github-actions</RepositoryUrl>
+	</PropertyGroup>
+
+</Project>
