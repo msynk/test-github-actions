@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<TargetFramework>net5.0</TargetFramework>
 		<PackageId>TestGithubActions</PackageId>
-		<PackageVersion>$([System.DateTime]::Now.ToString(&quot;1.MM.dd&quot;))</PackageVersion>
+		<PackageVersion>$([System.DateTime]::Now.ToString(&quot;yyyy.MM.dd.HHmmss&quot;))</PackageVersion>
 		<Authors>msynk</Authors>
 		<PackageDescription>This package adds a Class1!</PackageDescription>
 		<RepositoryUrl>https://github.com/msynk/test-github-actions</RepositoryUrl>
