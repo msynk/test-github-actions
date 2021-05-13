@@ -15,6 +15,6 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Pack
-      run: dotnet pack src\TestGithubActions\TestGithubActions.csproj --output .
+      run: dotnet pack src/TestGithubActions/TestGithubActions.csproj --output .
     - name: Push
       run: dotnet nuget push *.nupkg --source https://nuget.pkg.github.com/msynk/index.json --api-key ${{secrets.PACKAGE_PAT}}
